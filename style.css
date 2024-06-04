@@ -28,3 +28,8 @@ body {
   width: 100px;
   float: left;
 }
+
+#menu {
+  height: 50px;
+  width: 50px;
+}
