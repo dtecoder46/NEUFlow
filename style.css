@@ -18,6 +18,7 @@ body {
 #logo {
   background-color: #35399c;
   width: 100px;
+  display: flex;
 }
 
 #logo_img {
