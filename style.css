@@ -17,5 +17,5 @@ body {
 
 #logo {
   background-color: #35399c;
-  resize: both;
+  width: 300px;
 }
