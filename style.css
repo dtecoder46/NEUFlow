@@ -33,5 +33,6 @@ body {
 #menu {
   height: 50px;
   width: 50px;
-  float: right;
+  align: center;
+  padding: 5px;
 }
