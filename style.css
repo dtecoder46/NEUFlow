@@ -36,3 +36,7 @@ body {
   align: center;
   padding: 5px;
 }
+
+#action, #hero_txt {
+  font-family: "Montserrat";
+}
