@@ -39,4 +39,11 @@ body {
 
 #action, #hero_txt {
   font-family: "Montserrat";
+  margin: auto;
+  width: 50%
 }
+
+#action {
+  font-size: 64pt;
+}
+  
