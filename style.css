@@ -50,6 +50,15 @@ body {
 
 #act_div {
   margin: auto;
-  width: 50%
+  width: 50%;
+  font-size: 8pt;
+  border-radius: 7px;
+}
+
+
+#action {
+  background-color: #2e0f25;
+  font-family: Montserrat;
+  color: white;
 }
   
