@@ -39,17 +39,19 @@ body {
 
 #hero {
   font-family: "Montserrat";
-  display: flex;
 }
 
 #hero_txt {
   font-size: 16pt;
+  margin: auto;
+  width: 50%;
 }
 
 #act_div {
   border-radius: 7px;
   align: center;
-  margin-top: 50px;
+  margin: auto;
+  width: 50%;
 }
 
 
