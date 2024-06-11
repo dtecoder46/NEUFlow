@@ -74,6 +74,8 @@ body {
 #info {
   margin: auto;
   width: 50%;
-  color: white;
 }
   
+#box_txt1, #box_txt2, #box_txt3 {
+  color: white;
+}
