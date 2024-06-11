@@ -39,6 +39,7 @@ body {
 
 #hero {
   font-family: "Montserrat";
+  background-image: url("Nuclear.png");
 }
 
 #hero_txt {
