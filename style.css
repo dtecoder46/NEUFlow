@@ -2,22 +2,24 @@
 
 html {
   background-color: black;
+  font-family: "Montserrat";
+  color: white;
 }
 
 body {
   margin: 20px;
+  max-width: 700px;
 }
 
 #nav {
   background-color: #d9b0cb;
   display: flex;
+  width: 700px;
 }
 
 #name {
   padding: 5px;
-  color: white;
-  font-family: "Montserrat";
-  font-weight: 100;
+  font-weight: 300;
   ttext-align: center;
   font-size: 12pt;
 }
@@ -44,6 +46,7 @@ body {
 #hero {
   font-family: "Montserrat";
   background-image: url("Nuclear.png");
+  width: 700px;
 }
 
 #hero_txt {
@@ -65,17 +68,88 @@ body {
 #action {
   background-color: #2e0f25;
   font-family: Montserrat;
-  color: white;
   padding: 5px;
   font-size: 16pt;
   width: 100px;
+  color: white;
 }
 
 #info {
-  margin: auto;
-  width: 50%;
+  display: flex;
+  padding: 10px;
+  max-width: 700px;
 }
-  
-#box_txt1, #box_txt2, #box_txt3 {
-  color: white;
+
+#box_txt1, #box_txt2, #box_txt3, #info_txt1, #info_txt2 {
+  padding: 5px;
+}
+
+#box, #custom_img, #bling {
+  max-width: 100%;
+  min-width: 200px;
+  height: auto;
+}
+
+#custom_img {
+  margin: auto;
+  width: 90%;
+  height: 50px;
+}
+
+#box {
+  margin: auto;
+  width: 30%;
+  height: 100px;
+}
+
+#bling {
+  height: 100px;
+}
+
+#easy, #custom, #unlimited {
+  padding: 15px;
+}
+
+#easy {
+  background-color: #461c59;
+}
+
+#custom {
+  background-color: #35399c;
+}
+
+#unlimited {
+  background-color: #9c6baf;
+}
+
+#footer {
+  background-image: linear-gradient(to right, black, #2e0f25, #461c59, #35399c, #9c6baf, #d9b0cb, white);
+  padding: 5px;
+  display: flex;
+  max-height: 60px;
+}
+
+#footer p {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+#gmail {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+#gmail_div, #tw_div {
+  display: flex;
+}
+
+#twitter {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+#tw_div {
+  padding-left: 170px;
 }
