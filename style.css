@@ -66,19 +66,12 @@ body {
 
 
 #action, #action2 {
+  background-color: #2e0f25;
   font-family: Montserrat;
   padding: 5px;
   font-size: 16pt;
   width: 150px;
   color: white;
-}
-
-#action {
-  background-color: #2e0f25;
-}
-
-#action2 {
-  background-color: #9c6baf;
 }
 
 #info {
